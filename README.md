@@ -87,13 +87,13 @@ The **Expense and Income Tracker** is a full-stack web application designed to h
 
 ## Project Structure
 
-### Backend (`/backend`)
+### Backend ()
 - **Controllers**: Handle incoming HTTP requests and map them to services.
 - **Services**: Contain business logic and interact with repositories.
 - **Repositories**: Interact with the database using Spring Data JPA.
 - **Entities**: Define the data model.
 
-### Frontend (`/frontend`)
+### Frontend ()
 - **Components**: Angular components representing different parts of the UI.
 - **Services**: Handle communication with the backend API.
 - **Models**: Define the structure of data used in the frontend.
