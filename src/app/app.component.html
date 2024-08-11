@@ -1,0 +1,32 @@
+<nz-layout class="layout">
+  <nz-sider class="sidebar">
+    <div class="logo">
+      <img src="https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_640.jpg" alt="Avatar" class="avatar">
+      <div class="user-info">
+        <strong>Root</strong>
+      </div>
+    </div>
+    <ul nz-menu nzTheme="dark" nzMode="inline">
+      <li nz-menu-item routerLink="/">
+        <span nz-icon nzType="dashboard"></span>
+        <span>Dashboard</span>
+      </li>
+      <li nz-menu-item routerLink="/income">
+        <span nz-icon nzType="fund"></span>
+        <span>Income</span>
+      </li>
+      <li nz-menu-item routerLink="/expense">
+        <span nz-icon nzType="fall"></span>
+        <span>Expense</span>
+      </li>
+    </ul>
+  </nz-sider>
+
+  <nz-layout class="right-layout">
+    <nz-content>
+      <div class="inner-content">
+        <router-outlet></router-outlet>
+      </div>
+    </nz-content>
+  </nz-layout>
+</nz-layout>
